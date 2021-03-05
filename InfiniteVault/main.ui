@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1060</width>
+    <height>778</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QTreeView" name="treeView">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>2</y>
+         <width>711</width>
+         <height>621</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="createbutton">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>635</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Create</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="foldername">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>650</y>
+         <width>571</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="exitbutton">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>635</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="deletebutton">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>670</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="logoutbutton">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>670</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Logout</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="searchbutton">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>380</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Search</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="browsebutton">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>110</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Browse</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>650</y>
+         <width>133</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enter the folder name</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="searchlineedit">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>250</y>
+         <width>191</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="searchlinelabel">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>220</y>
+         <width>171</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enter the folder / file name</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="typeselectlabel">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>310</y>
+         <width>171</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Select the file type (if known)</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="typeselectcombobox">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>340</y>
+         <width>191</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="browselineedit">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>90</y>
+         <width>171</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Browse to save the file</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1060</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
